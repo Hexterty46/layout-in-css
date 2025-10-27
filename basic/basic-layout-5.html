@@ -8,7 +8,22 @@
     <style>
       /* Doe hier jouw ding! */
       body {
-        display: grid;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+      }
+
+      nav {
+        align-self: center;
+      }
+
+      header,
+      nav,
+      main,
+      footer {
+        width: 50%;
+        height: 10em;
+        margin-block-end: 1em;
       }
     </style>
   </head>
